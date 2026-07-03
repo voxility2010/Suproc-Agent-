@@ -1,0 +1,200 @@
+[
+  {
+    "id": "INT001",
+    "entity_id": "SUP001",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "positive",
+    "rating_given": 5,
+    "notes": "On-time delivery, quality as described."
+  },
+  {
+    "id": "INT002",
+    "entity_id": "SUP001",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "positive",
+    "rating_given": 4,
+    "notes": "Minor packaging damage, resolved quickly."
+  },
+  {
+    "id": "INT003",
+    "entity_id": "SUP002",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "positive",
+    "rating_given": 4,
+    "notes": "Good communication throughout."
+  },
+  {
+    "id": "INT004",
+    "entity_id": "SUP005",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "negative",
+    "rating_given": 2,
+    "notes": "Delivery delayed by 12 days beyond quote."
+  },
+  {
+    "id": "INT005",
+    "entity_id": "SUP006",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "negative",
+    "rating_given": 3,
+    "notes": "Delivery time was longer than listed capacity would suggest."
+  },
+  {
+    "id": "INT006",
+    "entity_id": "SUP009",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "positive",
+    "rating_given": 5,
+    "notes": "Excellent quality, repeat customer."
+  },
+  {
+    "id": "INT007",
+    "entity_id": "SUP009",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "positive",
+    "rating_given": 5,
+    "notes": "Consistent across multiple orders."
+  },
+  {
+    "id": "INT008",
+    "entity_id": "SUP011",
+    "entity_type": "supplier",
+    "interaction_type": "order_cancelled",
+    "outcome": "negative",
+    "rating_given": null,
+    "notes": "Order cancelled due to facility relocation."
+  },
+  {
+    "id": "INT009",
+    "entity_id": "SUP014",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "positive",
+    "rating_given": 4,
+    "notes": "Reliable, no issues."
+  },
+  {
+    "id": "INT010",
+    "entity_id": "SUP016",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "negative",
+    "rating_given": 1,
+    "notes": "Claims in listing did not match delivered product. Flagged for review."
+  },
+  {
+    "id": "INT011",
+    "entity_id": "SUP021",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "positive",
+    "rating_given": 5,
+    "notes": "Best-in-class compliance documentation."
+  },
+  {
+    "id": "INT012",
+    "entity_id": "SUP021",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "positive",
+    "rating_given": 5,
+    "notes": "Second order, same high quality."
+  },
+  {
+    "id": "INT013",
+    "entity_id": "SUP033",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "positive",
+    "rating_given": 5,
+    "notes": "Fastest turnaround of any supplier used to date."
+  },
+  {
+    "id": "INT014",
+    "entity_id": "SUP010",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "positive",
+    "rating_given": 4,
+    "notes": "Good fit for small trial orders."
+  },
+  {
+    "id": "INT015",
+    "entity_id": "PRO001",
+    "entity_type": "professional",
+    "interaction_type": "engagement_completed",
+    "outcome": "positive",
+    "rating_given": 5,
+    "notes": "Delivered packaging redesign ahead of schedule."
+  },
+  {
+    "id": "INT016",
+    "entity_id": "PRO005",
+    "entity_type": "professional",
+    "interaction_type": "engagement_completed",
+    "outcome": "positive",
+    "rating_given": 5,
+    "notes": "Strong LCA analysis, well documented."
+  },
+  {
+    "id": "INT017",
+    "entity_id": "PRO003",
+    "entity_type": "professional",
+    "interaction_type": "engagement_completed",
+    "outcome": "positive",
+    "rating_given": 5,
+    "notes": "Thorough compliance audit."
+  },
+  {
+    "id": "INT018",
+    "entity_id": "PRO008",
+    "entity_type": "professional",
+    "interaction_type": "engagement_cancelled",
+    "outcome": "negative",
+    "rating_given": null,
+    "notes": "Cancelled due to unavailability."
+  },
+  {
+    "id": "INT019",
+    "entity_id": "SUP004",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "neutral",
+    "rating_given": 3,
+    "notes": "Order fulfilled but certification docs never provided."
+  },
+  {
+    "id": "INT020",
+    "entity_id": "SUP012",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "neutral",
+    "rating_given": 3,
+    "notes": "First order, no history to compare against."
+  },
+  {
+    "id": "INT021",
+    "entity_id": "SUP027",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "positive",
+    "rating_given": 4,
+    "notes": "Solid export-quality packaging."
+  },
+  {
+    "id": "INT022",
+    "entity_id": "SUP029",
+    "entity_type": "supplier",
+    "interaction_type": "order_completed",
+    "outcome": "positive",
+    "rating_given": 4,
+    "notes": "Good for organic-certified orders."
+  }
+]

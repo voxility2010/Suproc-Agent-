@@ -1,0 +1,144 @@
+python app.py ask "We are a sustainable food-packaging startup based in Bengaluru. We need three suppliers from South India that can provide food-grade biodegradable containers, support an initial order of 10,000 units and deliver within 30 days."
+
+==============================================================================
+INTERPRETED REQUIREMENT
+==============================================================================
+{
+  "objective": "Find biodegradable food-grade container suppliers",
+  "entity_type": "supplier",
+  "hard_constraints": {
+    "locations": [
+      "South India"
+    ],
+    "certifications": [
+      "food-grade"
+    ],
+    "minimum_capacity": 10000,
+    "maximum_delivery_days": 30,
+    "category": null,
+    "min_budget": null,
+    "max_budget": null,
+    "max_deadline_days": null,
+    "skills": null
+  },
+  "preferences": {
+    "sustainable_materials": true,
+    "startup_friendly": true,
+    "prefer_high_rating": null,
+    "other": {}
+  },
+  "requested_results": 3,
+  "ambiguities": [],
+  "conflicts": []
+}
+
+==============================================================================
+PLAN FOLLOWED
+==============================================================================
+  1. Filter suppliers in South India with food-grade certifications and minimum capacity of 10000
+  2. Rank candidates by sustainability score and startup-friendly status within delivery window of 30 days
+  3. Validate compliance with biodegradability and food-grade safety standards
+  4. Prepare final response with top 3 compliant suppliers and outreach draft
+  5. Await human approval before finalizing selection
+
+==============================================================================
+RECOMMENDED MATCHES (3)
+==============================================================================
+
+  [SUP021] Cochin Circular Pack
+    Match score: 82.0/100
+      - 2/5 objective keywords matched against products/description/category
+      - location 'Kochi, Kerala' matches requirement ['South India']
+      - all hard constraints satisfied (0 violations)
+      - capacity 19000 vs required minimum 10000
+      - avg rating 5.0/5 across 2 interaction record(s)
+
+  [SUP033] Silicon City Sustainables
+    Match score: 82.0/100
+      - 2/5 objective keywords matched against products/description/category
+      - location 'Bengaluru, Karnataka' matches requirement ['South India']
+      - all hard constraints satisfied (0 violations)
+      - capacity 22000 vs required minimum 10000
+      - avg rating 5.0/5 across 1 interaction record(s)
+
+  [SUP008] GreenPack Industries
+    Match score: 81.2/100
+      - 2/5 objective keywords matched against products/description/category
+      - location 'Bangalore' matches requirement ['South India']
+      - all hard constraints satisfied (0 violations)
+      - capacity 18000 vs required minimum 10000
+      - no interaction history; using listed rating 4.6/5
+
+==============================================================================
+CONSTRAINTS CHECKED
+==============================================================================
+  ['locations', 'certifications', 'minimum_capacity', 'maximum_delivery_days']
+
+==============================================================================
+MISSING INFORMATION
+==============================================================================
+  (none)
+
+==============================================================================
+RISKS / UNCERTAINTIES
+==============================================================================
+  (none)
+
+==============================================================================
+VALIDATION STATUS
+==============================================================================
+  Passed: True
+  Correction attempts used: 1
+
+==============================================================================
+DRAFT OUTREACH
+==============================================================================
+
+  --- to Cochin Circular Pack (SUP021) ---
+  Subject: Procurement Enquiry - Find biodegradable food-grade container suppliers
+  
+  Dear Cochin Circular Pack,
+  
+  We are reaching out regarding Find biodegradable food-grade container suppliers. We are evaluating suppliers/partners who can support an initial order of approximately 10000 units; delivery within 30 days; certification in: food-grade.
+  
+  Could you confirm current availability, certification documentation, and lead times for an order of this scale? We would appreciate a response at your earliest convenience so we can proceed with next steps.
+  
+  Regards,
+  [Your name / business name]
+  
+  --- DRAFT ONLY. Not sent. Requires human review and approval before sending. ---
+
+  --- to Silicon City Sustainables (SUP033) ---
+  Subject: Procurement Enquiry - Find biodegradable food-grade container suppliers
+  
+  Dear Silicon City Sustainables,
+  
+  We are reaching out regarding Find biodegradable food-grade container suppliers. We are evaluating suppliers/partners who can support an initial order of approximately 10000 units; delivery within 30 days; certification in: food-grade.
+  
+  Could you confirm current availability, certification documentation, and lead times for an order of this scale? We would appreciate a response at your earliest convenience so we can proceed with next steps.
+  
+  Regards,
+  [Your name / business name]
+  
+  --- DRAFT ONLY. Not sent. Requires human review and approval before sending. ---
+
+  --- to GreenPack Industries (SUP008) ---
+  Subject: Procurement Enquiry - Find biodegradable food-grade container suppliers
+  
+  Dear GreenPack Industries,
+  
+  We are reaching out regarding Find biodegradable food-grade container suppliers. We are evaluating suppliers/partners who can support an initial order of approximately 10000 units; delivery within 30 days; certification in: food-grade.
+  
+  Could you confirm current availability, certification documentation, and lead times for an order of this scale? We would appreciate a response at your earliest convenience so we can proceed with next steps.
+  
+  Regards,
+  [Your name / business name]
+  
+  --- DRAFT ONLY. Not sent. Requires human review and approval before sending. ---
+
+==============================================================================
+RECOMMENDED NEXT ACTION
+==============================================================================
+  Send a procurement enquiry to SUP021, SUP033, SUP008. Status: Awaiting user approval.
+  Human approval required: True
+==============================================================================

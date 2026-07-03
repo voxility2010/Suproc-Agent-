@@ -1,0 +1,338 @@
+python app.py ask "We need five biodegradable food-grade container suppliers based in Karnataka, minimum capacity 5000 units, delivery within 30 days."
+
+==============================================================================
+INTERPRETED REQUIREMENT
+==============================================================================
+{
+  "objective": "Find biodegradable food-grade container suppliers",
+  "entity_type": "supplier",
+  "hard_constraints": {
+    "locations": [
+      "South India"
+    ],
+    "certifications": [
+      "food-grade"
+    ],
+    "minimum_capacity": 10000,
+    "maximum_delivery_days": 30,
+    "category": null,
+    "min_budget": null,
+    "max_budget": null,
+    "max_deadline_days": null,
+    "skills": null
+  },
+  "preferences": {
+    "sustainable_materials": true,
+    "startup_friendly": true,
+    "prefer_high_rating": null,
+    "other": {}
+  },
+  "requested_results": 3,
+  "ambiguities": [],
+  "conflicts": []
+}
+
+==============================================================================
+PLAN FOLLOWED
+==============================================================================
+  1. Filter suppliers in South India with food-grade certifications and minimum capacity of 10000
+  2. Rank candidates by sustainability score and startup-friendly status within delivery window of 30 days
+  3. Validate compliance with biodegradability and food-grade safety standards
+  4. Prepare final response with top 3 compliant suppliers and outreach draft
+  5. Await human approval before finalizing selection
+
+==============================================================================
+RECOMMENDED MATCHES (3)
+==============================================================================
+
+  [SUP021] Cochin Circular Pack
+    Match score: 82.0/100
+      - 2/5 objective keywords matched against products/description/category
+      - location 'Kochi, Kerala' matches requirement ['South India']
+      - all hard constraints satisfied (0 violations)
+      - capacity 19000 vs required minimum 10000
+      - avg rating 5.0/5 across 2 interaction record(s)
+
+  [SUP033] Silicon City Sustainables
+    Match score: 82.0/100
+      - 2/5 objective keywords matched against products/description/category
+      - location 'Bengaluru, Karnataka' matches requirement ['South India']
+      - all hard constraints satisfied (0 violations)
+      - capacity 22000 vs required minimum 10000
+      - avg rating 5.0/5 across 1 interaction record(s)
+
+  [SUP008] GreenPack Industries
+    Match score: 81.2/100
+      - 2/5 objective keywords matched against products/description/category
+      - location 'Bangalore' matches requirement ['South India']
+      - all hard constraints satisfied (0 violations)
+      - capacity 18000 vs required minimum 10000
+      - no interaction history; using listed rating 4.6/5
+
+==============================================================================
+CONSTRAINTS CHECKED
+==============================================================================
+  ['locations', 'certifications', 'minimum_capacity', 'maximum_delivery_days']
+
+==============================================================================
+MISSING INFORMATION
+==============================================================================
+  (none)
+
+==============================================================================
+RISKS / UNCERTAINTIES
+==============================================================================
+  (none)
+
+==============================================================================
+VALIDATION STATUS
+==============================================================================
+  Passed: True
+  Correction attempts used: 1
+
+==============================================================================
+DRAFT OUTREACH
+==============================================================================
+
+  --- to Cochin Circular Pack (SUP021) ---
+  Subject: Procurement Enquiry - Find biodegradable food-grade container suppliers
+  
+  Dear Cochin Circular Pack,
+  
+  We are reaching out regarding Find biodegradable food-grade container suppliers. We are evaluating suppliers/partners who can support an initial order of approximately 10000 units; delivery within 30 days; certification in: food-grade.
+  
+  Could you confirm current availability, certification documentation, and lead times for an order of this scale? We would appreciate a response at your earliest convenience so we can proceed with next steps.
+  
+  Regards,
+  [Your name / business name]
+  
+  --- DRAFT ONLY. Not sent. Requires human review and approval before sending. ---
+
+  --- to Silicon City Sustainables (SUP033) ---
+  Subject: Procurement Enquiry - Find biodegradable food-grade container suppliers
+  
+  Dear Silicon City Sustainables,
+  
+  We are reaching out regarding Find biodegradable food-grade container suppliers. We are evaluating suppliers/partners who can support an initial order of approximately 10000 units; delivery within 30 days; certification in: food-grade.
+  
+  Could you confirm current availability, certification documentation, and lead times for an order of this scale? We would appreciate a response at your earliest convenience so we can proceed with next steps.
+  
+  Regards,
+  [Your name / business name]
+  
+  --- DRAFT ONLY. Not sent. Requires human review and approval before sending. ---
+
+  --- to GreenPack Industries (SUP008) ---
+  Subject: Procurement Enquiry - Find biodegradable food-grade container suppliers
+  
+  Dear GreenPack Industries,
+  
+  We are reaching out regarding Find biodegradable food-grade container suppliers. We are evaluating suppliers/partners who can support an initial order of approximately 10000 units; delivery within 30 days; certification in: food-grade.
+  
+  Could you confirm current availability, certification documentation, and lead times for an order of this scale? We would appreciate a response at your earliest convenience so we can proceed with next steps.
+  
+  Regards,
+  [Your name / business name]
+  
+  --- DRAFT ONLY. Not sent. Requires human review and approval before sending. ---
+
+==============================================================================
+RECOMMENDED NEXT ACTION
+==============================================================================
+  Send a procurement enquiry to SUP021, SUP033, SUP008. Status: Awaiting user approval.
+  Human approval required: True
+==============================================================================
+
+(.venv) PS C:\Users\Windows 11\Downloads\suproc-agent\suproc-agent> ^C
+(.venv) PS C:\Users\Windows 11\Downloads\suproc-agent\suproc-agent> python app.py ask "We need five biodegradable food-grade container suppliers based in Karnataka, minimum capacity 5000 units, delivery within 30 days."
+Parsing requirement with model=qwen3:1.7b...
+Creating execution plan...
+Running search, filter, ranking, validation, correction...
+
+==============================================================================
+INTERPRETED REQUIREMENT
+==============================================================================
+{
+  "objective": "Find biodegradable food-grade container suppliers",
+  "entity_type": "supplier",
+  "hard_constraints": {
+    "locations": [
+      "Karnataka"
+    ],
+    "certifications": [
+      "food-grade"
+    ],
+    "minimum_capacity": 5000,
+    "maximum_delivery_days": 30,
+    "category": null,
+    "min_budget": null,
+    "max_budget": null,
+    "max_deadline_days": null,
+    "skills": null
+  },
+  "preferences": {
+    "sustainable_materials": true,
+    "startup_friendly": null,
+    "prefer_high_rating": null,
+    "other": {}
+  },
+  "requested_results": 5,
+  "ambiguities": [],
+  "conflicts": []
+}
+
+==============================================================================
+PLAN FOLLOWED
+==============================================================================
+  1. Search dataset for suppliers in Karnataka with food-grade certifications
+  2. Filter results by minimum capacity of 5000 and delivery window of 30 days
+  3. Rank top candidates by match score based on sustainability and compliance
+  4. Validate recommendations against hard constraints (locations, certifications, capacity)
+  5. Correct any violations of hard constraints and refine results
+  6. Prepare final response and outreach draft for human approval
+
+==============================================================================
+RECOMMENDED MATCHES (5)
+==============================================================================
+
+  [SUP009] Coastal Biodegradables
+    Match score: 82.0/100
+      - 2/5 objective keywords matched against products/description/category
+      - location 'Mangalore, Karnataka' matches requirement ['Karnataka']
+      - all hard constraints satisfied (0 violations)
+      - capacity 13000 vs required minimum 5000
+      - avg rating 5.0/5 across 2 interaction record(s)
+
+  [SUP033] Silicon City Sustainables
+    Match score: 82.0/100
+      - 2/5 objective keywords matched against products/description/category
+      - location 'Bengaluru, Karnataka' matches requirement ['Karnataka']
+      - all hard constraints satisfied (0 violations)
+      - capacity 22000 vs required minimum 5000
+      - avg rating 5.0/5 across 1 interaction record(s)
+
+  [SUP008] GreenPack Industries
+    Match score: 81.2/100
+      - 2/5 objective keywords matched against products/description/category
+      - location 'Bangalore' matches requirement ['Karnataka']
+      - all hard constraints satisfied (0 violations)
+      - capacity 18000 vs required minimum 5000
+      - no interaction history; using listed rating 4.6/5
+
+  [SUP014B] Deccan Compostables Pvt Ltd
+    Match score: 81.0/100
+      - 2/5 objective keywords matched against products/description/category
+      - location 'Bengaluru, Karnataka' matches requirement ['Karnataka']
+      - all hard constraints satisfied (0 violations)
+      - capacity 9500 vs required minimum 5000
+      - no interaction history; using listed rating 4.5/5
+
+  [SUP019] Sahyadri Sustainables
+    Match score: 80.4/100
+      - 2/5 objective keywords matched against products/description/category
+      - location 'Belagavi, Karnataka' matches requirement ['Karnataka']
+      - all hard constraints satisfied (0 violations)
+      - capacity 17000 vs required minimum 5000
+      - no interaction history; using listed rating 4.2/5
+
+==============================================================================
+CONSTRAINTS CHECKED
+==============================================================================
+  ['locations', 'certifications', 'minimum_capacity', 'maximum_delivery_days']
+
+==============================================================================
+MISSING INFORMATION
+==============================================================================
+  (none)
+
+==============================================================================
+RISKS / UNCERTAINTIES
+==============================================================================
+  (none)
+
+==============================================================================
+VALIDATION STATUS
+==============================================================================
+  Passed: True
+  Correction attempts used: 2
+
+==============================================================================
+DRAFT OUTREACH
+==============================================================================
+
+  --- to Coastal Biodegradables (SUP009) ---
+  Subject: Procurement Enquiry - Find biodegradable food-grade container suppliers
+  
+  Dear Coastal Biodegradables,
+  
+  We are reaching out regarding Find biodegradable food-grade container suppliers. We are evaluating suppliers/partners who can support an initial order of approximately 5000 units; delivery within 30 days; certification in: food-grade.
+  
+  Could you confirm current availability, certification documentation, and lead times for an order of this scale? We would appreciate a response at your earliest convenience so we can proceed with next steps.
+  
+  Regards,
+  [Your name / business name]
+  
+  --- DRAFT ONLY. Not sent. Requires human review and approval before sending. ---
+
+  --- to Silicon City Sustainables (SUP033) ---
+  Subject: Procurement Enquiry - Find biodegradable food-grade container suppliers
+  
+  Dear Silicon City Sustainables,
+  
+  We are reaching out regarding Find biodegradable food-grade container suppliers. We are evaluating suppliers/partners who can support an initial order of approximately 5000 units; delivery within 30 days; certification in: food-grade.
+  
+  Could you confirm current availability, certification documentation, and lead times for an order of this scale? We would appreciate a response at your earliest convenience so we can proceed with next steps.
+  
+  Regards,
+  [Your name / business name]
+  
+  --- DRAFT ONLY. Not sent. Requires human review and approval before sending. ---
+
+  --- to GreenPack Industries (SUP008) ---
+  Subject: Procurement Enquiry - Find biodegradable food-grade container suppliers
+  
+  Dear GreenPack Industries,
+  
+  We are reaching out regarding Find biodegradable food-grade container suppliers. We are evaluating suppliers/partners who can support an initial order of approximately 5000 units; delivery within 30 days; certification in: food-grade.
+  
+  Could you confirm current availability, certification documentation, and lead times for an order of this scale? We would appreciate a response at your earliest convenience so we can proceed with next steps.
+  
+  Regards,
+  [Your name / business name]
+  
+  --- DRAFT ONLY. Not sent. Requires human review and approval before sending. ---
+
+  --- to Deccan Compostables Pvt Ltd (SUP014B) ---
+  Subject: Procurement Enquiry - Find biodegradable food-grade container suppliers
+  
+  Dear Deccan Compostables Pvt Ltd,
+  
+  We are reaching out regarding Find biodegradable food-grade container suppliers. We are evaluating suppliers/partners who can support an initial order of approximately 5000 units; delivery within 30 days; certification in: food-grade.
+  
+  Could you confirm current availability, certification documentation, and lead times for an order of this scale? We would appreciate a response at your earliest convenience so we can proceed with next steps.
+  
+  Regards,
+  [Your name / business name]
+  
+  --- DRAFT ONLY. Not sent. Requires human review and approval before sending. ---
+
+  --- to Sahyadri Sustainables (SUP019) ---
+  Subject: Procurement Enquiry - Find biodegradable food-grade container suppliers
+  
+  Dear Sahyadri Sustainables,
+  
+  We are reaching out regarding Find biodegradable food-grade container suppliers. We are evaluating suppliers/partners who can support an initial order of approximately 5000 units; delivery within 30 days; certification in: food-grade.
+  
+  Could you confirm current availability, certification documentation, and lead times for an order of this scale? We would appreciate a response at your earliest convenience so we can proceed with next steps.
+  
+  Regards,
+  [Your name / business name]
+  
+  --- DRAFT ONLY. Not sent. Requires human review and approval before sending. ---
+
+==============================================================================
+RECOMMENDED NEXT ACTION
+==============================================================================
+  Send a procurement enquiry to SUP009, SUP033, SUP008, SUP014B, SUP019. Status: Awaiting user approval.
+  Human approval required: True
+==============================================================================

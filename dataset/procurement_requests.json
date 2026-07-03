@@ -1,0 +1,102 @@
+[
+  {
+    "id": "PR001",
+    "business": "LeafBox Foods",
+    "category": "food-packaging",
+    "requirement": "biodegradable food-grade containers",
+    "min_quantity": 10000,
+    "max_delivery_days": 30,
+    "location_preference": "South India",
+    "status": "open"
+  },
+  {
+    "id": "PR002",
+    "business": "Coastal Kitchens",
+    "category": "food-packaging",
+    "requirement": "biodegradable containers with organic certification",
+    "min_quantity": 5000,
+    "max_delivery_days": 25,
+    "location_preference": "Kerala",
+    "status": "open"
+  },
+  {
+    "id": "PR003",
+    "business": "Metro Meals",
+    "category": "food-packaging",
+    "requirement": "biodegradable containers, high volume",
+    "min_quantity": 20000,
+    "max_delivery_days": 20,
+    "location_preference": "Karnataka",
+    "status": "open"
+  },
+  {
+    "id": "PR004",
+    "business": "TechFab Systems",
+    "category": "electronics",
+    "requirement": "PCB assemblies",
+    "min_quantity": 2000,
+    "max_delivery_days": 40,
+    "location_preference": "Maharashtra",
+    "status": "open"
+  },
+  {
+    "id": "PR005",
+    "business": "Budget Bites",
+    "category": "food-packaging",
+    "requirement": "cheapest biodegradable containers available, no minimum quality bar",
+    "min_quantity": 3000,
+    "max_delivery_days": 30,
+    "location_preference": "Any",
+    "status": "open"
+  },
+  {
+    "id": "PR006",
+    "business": "Rapid Restock Ltd",
+    "category": "food-packaging",
+    "requirement": "biodegradable containers delivered within 5 days",
+    "min_quantity": 8000,
+    "max_delivery_days": 5,
+    "location_preference": "South India",
+    "status": "open"
+  },
+  {
+    "id": "PR007",
+    "business": "Closed Case Foods",
+    "category": "food-packaging",
+    "requirement": "biodegradable containers",
+    "min_quantity": 6000,
+    "max_delivery_days": 30,
+    "location_preference": "Tamil Nadu",
+    "status": "closed"
+  },
+  {
+    "id": "PR008",
+    "business": "Ambiguous Foods Pvt Ltd",
+    "category": "food-packaging",
+    "requirement": "containers, somewhere in the south, flexible",
+    "min_quantity": null,
+    "max_delivery_days": null,
+    "location_preference": "south region",
+    "status": "open"
+  },
+  {
+    "id": "PR009",
+    "business": "GreenStart Innovations",
+    "category": "food-packaging",
+    "requirement": "biodegradable food-grade containers, startup-friendly supplier",
+    "min_quantity": 10000,
+    "max_delivery_days": 30,
+    "location_preference": "South India",
+    "status": "open"
+  },
+  {
+    "id": "PR010",
+    "business": "Contradict Corp",
+    "category": "food-packaging",
+    "requirement": "cheapest possible AND highest certification AND fastest delivery simultaneously",
+    "min_quantity": 10000,
+    "max_delivery_days": 5,
+    "location_preference": "South India",
+    "status": "open"
+  }
+]

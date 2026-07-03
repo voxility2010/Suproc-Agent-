@@ -1,0 +1,134 @@
+[
+  {
+    "id": "PRJ001",
+    "title": "Sustainable Packaging Redesign",
+    "type": "project",
+    "category": "food-packaging",
+    "location": "Bengaluru, Karnataka",
+    "budget": 250000,
+    "deadline_days": 45,
+    "status": "open",
+    "description": "Redesign packaging line to use biodegradable materials."
+  },
+  {
+    "id": "PRJ002",
+    "title": "Vendor Audit Bounty",
+    "type": "bounty",
+    "category": "compliance",
+    "location": "Chennai, Tamil Nadu",
+    "budget": 40000,
+    "deadline_days": 10,
+    "status": "open",
+    "description": "One-time FSSAI compliance audit of three shortlisted vendors."
+  },
+  {
+    "id": "PRJ003",
+    "title": "South India Supplier Onboarding",
+    "type": "project",
+    "category": "procurement",
+    "location": "South India",
+    "budget": 100000,
+    "deadline_days": null,
+    "status": "open",
+    "description": "Onboard biodegradable packaging suppliers across South Indian states. Deadline not yet finalized."
+  },
+  {
+    "id": "PRJ004",
+    "title": "PCB Assembly Sourcing",
+    "type": "project",
+    "category": "electronics",
+    "location": "Pune, Maharashtra",
+    "budget": 500000,
+    "deadline_days": 60,
+    "status": "open",
+    "description": "Unrelated category project included to test entity-type filtering."
+  },
+  {
+    "id": "PRJ005",
+    "title": "Packaging Cost Reduction Bounty",
+    "type": "bounty",
+    "category": "food-packaging",
+    "location": "Kochi, Kerala",
+    "budget": 30000,
+    "deadline_days": 20,
+    "status": "open",
+    "description": "Identify cost savings across current biodegradable packaging suppliers."
+  },
+  {
+    "id": "PRJ006",
+    "title": "Steel Bracket Supply Contract",
+    "type": "project",
+    "category": "industrial-metal",
+    "location": "Ludhiana, Punjab",
+    "budget": 800000,
+    "deadline_days": 90,
+    "status": "closed",
+    "description": "Closed project, included to test availability filtering."
+  },
+  {
+    "id": "PRJ007",
+    "title": "Startup Packaging Trial Order",
+    "type": "project",
+    "category": "food-packaging",
+    "location": "Bengaluru, Karnataka",
+    "budget": 50000,
+    "deadline_days": 30,
+    "status": "open",
+    "description": "Small trial order for a sustainable food-packaging startup, testing 2-3 suppliers."
+  },
+  {
+    "id": "PRJ008",
+    "title": "Certification Verification Bounty",
+    "type": "bounty",
+    "category": "compliance",
+    "location": "Hyderabad, Telangana",
+    "budget": 25000,
+    "deadline_days": 15,
+    "status": "open",
+    "description": "Verify certification claims for suppliers missing documentation."
+  },
+  {
+    "id": "PRJ009",
+    "title": "Organic Packaging Line Expansion",
+    "type": "project",
+    "category": "food-packaging",
+    "location": "Kerala",
+    "budget": 180000,
+    "deadline_days": 50,
+    "status": "open",
+    "description": "Expand organic-certified packaging line capacity."
+  },
+  {
+    "id": "PRJ010",
+    "title": "Electronics Compliance Bounty",
+    "type": "bounty",
+    "category": "electronics",
+    "location": "Pune, Maharashtra",
+    "budget": 20000,
+    "deadline_days": 12,
+    "status": "open",
+    "description": "RoHS compliance verification bounty, unrelated category."
+  },
+  {
+    "id": "PRJ011",
+    "title": "Ambiguous Location Sourcing Task",
+    "type": "project",
+    "category": "food-packaging",
+    "location": "South",
+    "budget": 60000,
+    "deadline_days": 25,
+    "status": "open",
+    "description": "Location field intentionally ambiguous ('South') to test location matching."
+  },
+  {
+    "id": "PRJ012",
+    "title": "Export Packaging Certification Drive",
+    "type": "project",
+    "category": "food-packaging",
+    "location": "Tamil Nadu",
+    "budget": 120000,
+    "deadline_days": 40,
+    "status": "open",
+    "description": "Certify export-ready biodegradable packaging suppliers."
+  }
+]
