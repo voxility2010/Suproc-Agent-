@@ -234,7 +234,7 @@ The agent **never** sends, invites, awards, accepts, approves, or writes to any 
 | | |
 |---|---|
 | 🔗 **Repository** | https://github.com/voxility2010/Suproc-Agent- |
-| 🎥 **Demo Video** | *(pending)* |
+| 🎥 **Demo Video** | [(https://drive.google.com/file/d/1pVOD2SlInmGUW83xdalMV_r67iuHKYly/view?usp=sharing) |
 | 🤖 **Model Used** | `qwen3:1.7b` (default), `qwen3:4b` supported via `--model` |
 | ⚠️ **Known Limitations** | See [§10](#-10-known-limitations) above |
 
