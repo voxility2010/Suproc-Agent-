@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔍 Suproc Agent
+# 🔍 Grounded Match Agent
 ### Local Agentic Search, Matching & Verification System
 
 *A local AI agent that turns a natural-language business request into a grounded, evidence-backed, human-approved recommendation — built entirely on a local model, with zero cloud dependency.*
